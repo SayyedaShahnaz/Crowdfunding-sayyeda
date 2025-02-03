@@ -6,7 +6,7 @@ import { ethers } from 'ethers';
 
 const StateContext = createContext();
 export const StateContextProvider = ({children})=>{
-    const { contract} = useContract('0x056ecbAd487FCe944761712E3BdcdAE166952282');
+    const { contract} = useContract('0xA088B93D974DE0fff98E28170D7dE1ADd7fbDac6');
     const {mutateAsync:createCampaign} = useContractWrite(contract,'createCampaign');
 
     const address = useAddress();

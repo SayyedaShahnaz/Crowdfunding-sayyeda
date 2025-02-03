@@ -6,10 +6,16 @@
     "release": "npx thirdweb@latest release"
   },
   "devDependencies": {
-    "hardhat": "^2.10.1"
+    "@nomicfoundation/hardhat-ethers": "^3.0.8",
+    "@nomicfoundation/hardhat-ignition": "^0.15.9",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@nomicfoundation/ignition-core": "^0.15.9",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "ethers": "^5.7.0",
+    "hardhat": "^2.22.17"
   },
   "dependencies": {
     "@thirdweb-dev/contracts": "^3",
-    "dotenv": "^16.0.3"
+    "dotenv": "^16.4.7"
   }
 }

@@ -8,4 +8,7 @@ export default defineConfig({
     global: "globalThis",
     "process.env": {},
   },
+  optimizeDeps: {
+    include: ["ethers/lib/utils"], // Add this line to pre-bundle ethers/lib/utils
+  },
 });
